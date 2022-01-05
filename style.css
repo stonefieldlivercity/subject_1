@@ -61,3 +61,20 @@ footer{
   width: 100%;
   background-color: #aaaaaa;
 }
+/*********** media **************************/
+@media screen and (max-width: 768px){
+  .header{
+    width: 100%;
+  }
+  main{
+    width: 100%;
+    display: block;
+  }
+  .step-content{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .image{
+    height: 150px;
+  }
+}
